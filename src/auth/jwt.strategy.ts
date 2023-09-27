@@ -8,8 +8,8 @@ export class JwtStrategy extends PassportStrategy(Strategy){
 		super({
 			jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
 			ignoreExpiration: false,
-			secretOrKey: 'SECRET', //put in .env
-		})
+			secretOrKey: process.env.JWT_SECRET,// secret is in .env
+		});
 	}
 
 	async validate(payload :any) {

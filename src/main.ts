@@ -4,22 +4,13 @@ import { AppModule } from './app.module';
 import * as session from 'express-session';
 import * as passport from 'passport';
 
+import { config } from 'dotenv';
+config(); // Charge les variables d'environnement depuis le fichier .env
+
+
 //creating the application
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-
-  // app.use(
-  //   session({
-  //     secret: 'keyboard cat',
-  //     resave: false,
-  //     saveUninitialized: false,
-  //     cookie: { maxAge: 3600000},
-  //   }),
-  // );
-
-  // app.use(passport.initialize());
-  // app.use(passport.session());
-
   await app.listen(3000);
 }
 bootstrap();
