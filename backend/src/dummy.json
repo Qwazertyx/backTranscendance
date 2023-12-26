@@ -1,0 +1,121 @@
+{
+	"users": [
+		{
+			"username": "dummy",
+			"displayname": "Dummy",
+			"email": "dummy@mail.com",
+			"password": "dummy",
+			"friends": [
+				"gamer",
+				"admin",
+				"testuser"
+			],
+			"requests": [
+				"steve"
+			]
+		},
+		{
+			"username": "testuser",
+			"displayname": "Test User",
+			"email": "testuser@mail.com",
+			"password": "testuser",
+			"friends": [
+				"admin",
+				"dummy",
+				"gamer",
+				"will",
+				"jack",
+				"avrel"
+			],
+			"requests": [
+				"steve"
+			]
+		},
+		{
+			"username": "gamer",
+			"displayname": "xX_Gamer_Xx",
+			"email": "gamer@mail.com",
+			"password": "gamer",
+			"friends": [
+				"dummy",
+				"admin",
+				"testuser"
+			],
+			"requests": [
+				"steve"
+			]
+		},
+		{
+			"username": "admin",
+			"displayname": "Definitely an Admin",
+			"email": "admin@mail.com",
+			"password": "admin",
+			"friends": [
+				"dummy",
+				"gamer",
+				"testuser"
+			],
+			"requests": [
+				"steve"
+			]
+		},
+		{
+			"username": "steve",
+			"displayname": "Steve from accounting",
+			"email": "steve@mail.com",
+			"password": "steve",
+			"friends": [],
+			"requests": []
+		},
+		{
+			"username": "joe",
+			"displayname": "Joe",
+			"email": "joe@mail.com",
+			"password": "joe",
+			"friends": [],
+			"requests": [
+				"testuser",
+				"gamer",
+				"admin",
+				"dummy",
+				"steve"
+			]
+		},
+		{
+			"username": "will",
+			"displayname": "will",
+			"email": "will@mail.com",
+			"password": "will",
+			"friends": [
+				"dummy",
+				"gamer",
+				"testuser"
+			],
+			"requests": []
+		},
+		{
+			"username": "jack",
+			"displayname": "jack",
+			"email": "jack@mail.com",
+			"password": "jack",
+			"friends": [
+				"dummy",
+				"gamer",
+				"testuser"
+			],
+			"requests": []
+		},
+		{
+			"username": "avrel",
+			"displayname": "avrel",
+			"email": "avrel@mail.com",
+			"password": "avrel",
+			"friends": [
+				"dummy",
+				"gamer",
+				"testuser"
+			],
+			"requests": []
+		}
+	]
+}
